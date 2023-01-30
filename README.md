@@ -23,3 +23,5 @@ The `sfdx-project.json` file contains useful configuration information for your 
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
+
+### After Deploying this to your Org, make sure to do the following: Add the StammdatenPflege flow to your record page. Then select the component in the App Builder (Page>Flow) and set the "recordId" field to "{!Record.Id}" and also check the checkbox "Pass record ID into this variable". Otherwise the flow will fail. 
