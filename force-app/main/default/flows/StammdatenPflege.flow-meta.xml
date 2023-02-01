@@ -140,19 +140,19 @@
         </connector>
         <fields>
             <name>Intro</name>
-            <fieldText>&lt;p&gt;Für die vollständige Stammdatenpflege müssen noch folgende Informationen eingeholt werden:&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;For complete Data Maintenance purposes you still need to obtain the following information:&lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
         </fields>
         <fields>
             <name>DublettenCheck</name>
             <dataType>Boolean</dataType>
-            <fieldText>Dubletten Suche &amp; Prüfung</fieldText>
+            <fieldText>Duplicate Check</fieldText>
             <fieldType>InputField</fieldType>
             <isRequired>true</isRequired>
         </fields>
         <fields>
             <name>Schufa</name>
-            <fieldText>&lt;p&gt;Bitte prüfen Sie außerdem die aktuelle Bonität des neuen Account:&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;Please request the creditworthiness of this Account (eg. from Creditreform):&lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
         </fields>
         <fields>
@@ -161,7 +161,7 @@
             <choiceReferences>Negativ</choiceReferences>
             <choiceReferences>N_A</choiceReferences>
             <dataType>String</dataType>
-            <fieldText>Schufa Ergebnis</fieldText>
+            <fieldText>Schufa Result</fieldText>
             <fieldType>DropdownBox</fieldType>
             <isRequired>false</isRequired>
         </fields>
